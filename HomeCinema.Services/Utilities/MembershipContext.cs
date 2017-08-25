@@ -10,11 +10,11 @@ namespace HomeCinema.Services.Utilities
 {
     public class MembershipContext
     {
-        public IPrincipal Principle { get; set; }
-        public User MyProperty { get; set; }
+        public IPrincipal Principal { get; set; }
+        public User User { get; set; }
         public bool IsValid()
         {
-            return Principle != null;
+            return Principal != null;
         }
     }
 }
